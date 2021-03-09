@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CardView.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHelper.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="DeskTop.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\sqlite3.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GamemapScene.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitView.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Checkpoint.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CardInfoWindow.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CountGameDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAI.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleView.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Trine.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPackDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPackGridItem.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectExecutor.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectView.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Referee.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CardView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHelper.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskTop.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="mString.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite3.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="uidimens.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="dimens.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GamemapScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkpoint.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CardInfoWindow.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CountGameDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAI.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Trine.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPackDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPackGridItem.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectExecutor.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Referee.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build-cfg.json">
+      <Filter>win32</Filter>
+    </None>
+  </ItemGroup>
+</Project>

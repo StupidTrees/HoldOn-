@@ -1,0 +1,7 @@
+使用支持sqlite的数据库管理程序（推荐DBeaver），对card.db中的
+Effect、Card、CheckPoints表进行编辑，可以自定义卡牌、自定义关卡！
+
+1.在Effects表中新增一行，其各列含义与取值在列名和工程dimens.h中给出
+2.在Cards表中新增一行，其中effects填入刚才新增的效果id
+3.在Checkpoints中新增一行，其中pile填入刚才新增的卡牌id
+4.运行程序，打通前方关卡，即可进入自定义关卡啦~
